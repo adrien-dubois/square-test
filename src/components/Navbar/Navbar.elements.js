@@ -29,8 +29,15 @@ export const NavLogo = styled(Link)`
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    font-family: var(--outfit-font);
+    font-weight: 900;
     display: flex;
     align-items: center;
+
+    span{
+        margin-left: .5rem;
+        font-weight: 300;
+    }
 `;
 
 export const NavIcon = styled(SquareLogo)`

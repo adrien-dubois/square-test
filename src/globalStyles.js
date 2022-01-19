@@ -1,6 +1,11 @@
 import styled, {createGlobalStyle} from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+
+:root{
+    --outfit-font: 'Outfit', sans-serif;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;

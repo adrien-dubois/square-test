@@ -43,7 +43,7 @@ const Navbar = () => {
                 <NavbarContainer>
                     <NavLogo to="/">
                         <NavIcon width={50} height={50} fill="#fff"/>
-                        THE SQUARE.
+                        THE <span> SQUARE.</span>
                     </NavLogo>
                     <MobileIcon onClick={handleClick} >
                         {click ? <FaTimes /> : <FaBars />}
