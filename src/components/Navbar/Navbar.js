@@ -43,7 +43,7 @@ const Navbar = () => {
                 <NavbarContainer>
                     <NavLogo to="/">
                         <NavIcon width={50} height={50} fill="#fff"/>
-                        THE <span> SQUARE.</span>
+                        YOUR <span> WEBSITE</span>
                     </NavLogo>
                     <MobileIcon onClick={handleClick} >
                         {click ? <FaTimes /> : <FaBars />}
@@ -70,15 +70,15 @@ const Navbar = () => {
 
                         <NavItemBtn>
                             {button ? (
-                                <NavBtnLink to="/sign-up">
+                                <NavBtnLink to="/contact">
                                     <Button primary>
-                                        S'inscrire
+                                        Contact
                                     </Button>
                                 </NavBtnLink>
                             ) : (
-                                <NavBtnLink to="/sign-up">
+                                <NavBtnLink to="/contact">
                                     <Button fontBig primary>
-                                        S'inscrire
+                                        Contact
                                     </Button>
                                 </NavBtnLink> 
                             )}

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
-import { SquareLogo } from '../svgComponent';
+import { NavbarLogo } from '../svgComponent';
 
 export const Nav = styled.nav`
     background: #101522;
@@ -40,7 +40,7 @@ export const NavLogo = styled(Link)`
     }
 `;
 
-export const NavIcon = styled(SquareLogo)`
+export const NavIcon = styled(NavbarLogo)`
     margin: 0.5rem;
 `;
 
