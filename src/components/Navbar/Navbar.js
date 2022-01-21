@@ -17,10 +17,10 @@ import {
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
-
     const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
 
     const showButton = () => {
         if(window.innerWidth <= 960){
@@ -41,7 +41,7 @@ const Navbar = () => {
             <IconContext.Provider value={{ color: '#FFF' }}>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to="/">
+                    <NavLogo to="/" onClick={closeMobileMenu}>
                         <NavIcon width={50} height={50} fill="#fff"/>
                         YOUR <span> WEBSITE</span>
                     </NavLogo>

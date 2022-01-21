@@ -16,7 +16,14 @@ import {
   FooterSubscription, 
   FooterSubText, 
   Form,
-  FormInput
+  FormInput,
+  SocialIcon,
+  SocialIconLink,
+  SocialIcons,
+  SocialLogo,
+  SocialMedia,
+  SocialMediaWrap,
+  WebsiteRights
 } from './Footer.elements';
 
 const Footer = () => {
@@ -39,6 +46,8 @@ const Footer = () => {
 
       {/* Links section */}
         <FooterLinksContainer>
+
+          {/* 1st column */}
           <FooterLinksWrapper>
             <FooterLinksItems>
               <FooterLinkTitle>À Propos</FooterLinkTitle>
@@ -54,6 +63,10 @@ const Footer = () => {
               <FooterLink to='/products'>Nos produits</FooterLink>
               <FooterLink to='/prices'>Nos tarifs</FooterLink>
             </FooterLinksItems>
+          </FooterLinksWrapper>
+
+          {/* 2nd column */}
+          <FooterLinksWrapper>
             <FooterLinksItems>
               <FooterLinkTitle>À Propos</FooterLinkTitle>
               <FooterLink to='/'>Accueil</FooterLink>
@@ -70,13 +83,20 @@ const Footer = () => {
           </FooterLinksWrapper>
         </FooterLinksContainer>
 
+        {/* Social media & copyright section */}
         <SocialMedia>
           <SocialMediaWrap>
+
+            {/* Logo website */}
             <SocialLogo to="/">
-              <SocialIcon />
+              <SocialIcon width={50} height={50} fill="#fff" />
               YourWebsite
             </SocialLogo>
+
+            {/* Copyright */}
             <WebsiteRights>©2022 All right reserved | made with ❤ by The Square</WebsiteRights>
+
+            {/* Social nets icons */}
             <SocialIcons>
               <SocialIconLink href='/' target="_blank" aria-label="Instagram">
                 <FaInstagram />
@@ -88,6 +108,8 @@ const Footer = () => {
                 <FaLinkedin />
               </SocialIconLink> 
             </SocialIcons>
+
+            
           </SocialMediaWrap>
         </SocialMedia>
 
