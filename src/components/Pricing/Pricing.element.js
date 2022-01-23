@@ -24,7 +24,7 @@ export const PricingWrapper = styled.div`
 `;
 
 export const PricingHeading = styled.h1`
-  color: #fff;
+  color: var(--white-color);
   font-size: 48px;
   margin-bottom: 24px;
   text-transform: uppercase;
@@ -77,7 +77,7 @@ export const PricingCardInfo = styled.div`
   height: 500px;
   padding: 24px;
   align-items: center;
-  color: #fff;
+  color: var(--white-color);
 `;
 
 export const PricingCardIcon = styled.div`

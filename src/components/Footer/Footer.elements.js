@@ -19,7 +19,7 @@ export const FooterSubscription = styled.section`
     text-align: center;
     margin-bottom: 24px;
     padding: 24px;
-    color: #FFF;
+    color: var(--white-color);
 `;
 
 export const FooterSubHeading = styled.p`
@@ -51,7 +51,7 @@ export const FormInput = styled.input`
     outline: none;
     border: none;
     font-size: 16px;
-    border: 1px solid #FFF;
+    border: 1px solid var(--white-color);
 
     &::placeholder{
         color: #242424;
@@ -89,7 +89,7 @@ export const FooterLinksItems = styled.div`
     text-align: left;
     width: 160px;
     box-sizing: border-box;
-    color: #FFF;
+    color: var(--white-color);
 
     @media screen and (max-width: 420px) {
         margin: 0;
@@ -103,7 +103,7 @@ export const FooterLinkTitle = styled.h2`
 `;
 
 export const FooterLink = styled(Link)`
-    color: #FFF;
+    color: var(--white-color);
     text-decoration: none;
     margin-bottom: 0.5rem;
 
@@ -132,7 +132,7 @@ export const SocialMediaWrap = styled.div`
 `;
 
 export const SocialLogo = styled(Link)`
-    color: #FFF;
+    color: var(--white-color);
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
@@ -147,7 +147,7 @@ export const SocialIcon = styled(NavbarLogo)`
 `;
 
 export const WebsiteRights = styled.small`
-    color: #FFF;
+    color: var(--white-color);
     margin-bottom: 16px;
 `;
 
@@ -159,6 +159,6 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
-    color: #FFF;
+    color: var(--white-color);
     font-size: 24px;
 `;

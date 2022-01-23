@@ -3,7 +3,16 @@ import styled, {createGlobalStyle} from "styled-components";
 const GlobalStyle = createGlobalStyle`
 
 :root{
+    /* FONT */
     --outfit-font: 'Outfit', sans-serif;
+    --roboto-font: 'Roboto Mono', monospace;
+    --montserrat-font: 'Montserrat', sans-serif;
+    /* COLOR */
+    --white-color: #FFF;
+    --black-color: #000;
+    --dark-bg: #1E1E1E;
+    --blue1-color: #4B59F7;
+    --blue2-color: #2839f3
 }
 
 *{
@@ -11,6 +20,9 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    list-style-type: none;
+    outline: none;
+    border: none;
 }
 `;
 
@@ -27,6 +39,12 @@ export const Container = styled.div`
         padding-right: 30px;
         padding-left: 30px;
     }
+`;
+
+export const Contain = styled.div`
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
 `;
 
 export const Button = styled.button`

@@ -89,7 +89,7 @@ const Footer = () => {
 
             {/* Logo website */}
             <SocialLogo to="/">
-              <SocialIcon width={50} height={50} fill="#fff" />
+              <SocialIcon width={50} height={50} fill="var(--white-color)" />
               YourWebsite
             </SocialLogo>
 

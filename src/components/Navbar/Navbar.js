@@ -38,11 +38,11 @@ const Navbar = () => {
 
     return (
         <>
-            <IconContext.Provider value={{ color: '#FFF' }}>
+            <IconContext.Provider value={{ color: 'var(--white-color)' }}>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to="/" onClick={closeMobileMenu}>
-                        <NavIcon width={50} height={50} fill="#fff"/>
+                        <NavIcon width={50} height={50} fill="var(--white-color)"/>
                         YOUR <span> WEBSITE</span>
                     </NavLogo>
                     <MobileIcon onClick={handleClick} >
