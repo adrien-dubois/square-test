@@ -90,11 +90,11 @@ const Footer = () => {
             {/* Logo website */}
             <SocialLogo to="/">
               <SocialIcon width={50} height={50} fill="var(--white-color)" />
-              YourWebsite
+              MyAcadomia
             </SocialLogo>
 
             {/* Copyright */}
-            <WebsiteRights>©2022 All right reserved | made with ❤ by The Square</WebsiteRights>
+            <WebsiteRights>©2022 All right reserved | made with ❤ by Willy Delerue</WebsiteRights>
 
             {/* Social nets icons */}
             <SocialIcons>
